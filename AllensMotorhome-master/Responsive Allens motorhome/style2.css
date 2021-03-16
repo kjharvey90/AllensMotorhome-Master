@@ -1,0 +1,156 @@
+
+
+/*Mobile Screens*/
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+.header {
+    display:flex;
+    position:static;
+    background-image: url(images/alps4.JPG);
+    background-size:cover;
+    width:100%;
+    height:200px;
+    text-align:center;
+    
+  
+    
+}
+
+
+.container{
+    display:flex;
+    align-content:center;
+    height:200px;
+    width:100%;
+    background: linear-gradient(rgba(2, 3, 71, 0.788),
+     rgba(110, 204, 228, 0.726));
+    justify-content:center;
+    
+
+}
+
+    .container h1{
+        height:150px;
+        font-family:"Roboto","Sans-serif";
+         font-size: 30px;
+         color:white;
+         align-items:center;
+         padding-top:50px;
+         
+        
+    
+        }
+     h2 {
+         font-family: "Roboto","Sans-serif";
+         font-size:25px;
+         color:white;
+         text-align:center;
+         margin:0 auto;
+         vertical-align:middle;
+
+     }
+
+        body {
+            margin:0px;
+            background-color:wheat);
+            
+        }
+
+.gallery{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    width:auto;
+    height:auto;
+    align-content:center;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    justify-content:space-between;
+
+   
+
+    
+    
+
+
+
+  
+
+}
+ .galleryimg{
+     height:200px;
+     width:300px;
+     display:cover;
+     border:4px solid darkblue;
+     margin-top:10px;
+      
+ }
+ 
+  .galleryimg:hover {
+   border:4px solid yellow;
+   
+   }
+
+
+    
+}
+
+   
+     
+
+     
+ 
+
+
+
+
+
+
+
+
+
+
+   /* Tablet Screens*/     
+@media only screen and (min-width:481px) and (max-width:1024px),(orientation:landscape){
+ 
+
+    .header {
+        position:absolute;
+        background-image: url(images/alps4.JPG);
+        background-size:cover;
+        width:100%;
+        height:300px;
+}
+
+.container{
+    display:flex;
+    align-content:center;
+    height: 300px;
+    width:100%;
+    background: linear-gradient(rgba(3, 7, 46, 0.678),
+     rgba(243, 241, 241, 0.685));
+    position: absolute;
+    justify-content:center;
+    
+
+}
+
+.container h1{
+    height: 300px;
+    font-family:"Roboto","Sans-serif";
+     font-size: 60px;
+     color:white;
+     justify-content:center;
+     align-items:center;
+     padding-top:100px;
+     overflow:hidden;
+     
+}
+
+
+    }

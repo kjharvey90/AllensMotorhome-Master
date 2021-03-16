@@ -1,0 +1,244 @@
+* {
+    height:100%;
+}
+
+header{
+    margin: 0;
+    padding:0;
+    background-color: darkblue;
+    max-height:50px;
+    border-bottom: solid white;
+    width:100%;
+}
+  
+
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+nav{
+    float:left;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left:80px;
+    padding: left 70px;
+    padding-right:30px;
+    padding-top:5px; 
+    position:center;
+}
+
+a,.link1,.link2,.link3,.link4,.link5,.link6 {
+    color: White;
+    font-style: None;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:600;
+    font-size:20px;
+    text-decoration:none;
+    transition-delay:0.75ms;
+
+    }
+
+    .link1:hover {
+       color:black;
+       background-color:rgb(15, 155, 241);
+          background-size: 70; 
+          background-repeat: no-repeat;
+          background-position: center;
+          transition-delay:0.75ms;
+      }
+      
+    
+      .link2:hover{
+        color:blue;
+        background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png);
+        background-size: 70px; 
+        background-repeat: no-repeat;
+        background-position: center;
+        transition-delay:0.75ms;
+      }
+      .link3:hover {
+        color:orange;
+        background-image:url(https://www.iamexpat.nl/sites/default/files/sitefiles_2017-06/flag-prince-netherlands.png);
+        background-size: 70px; 
+        background-repeat: no-repeat;
+        background-position: center;
+        transition-delay:0.75ms;
+
+     }
+     .link4:hover {
+        color:lime;
+        background-image:url(http://www.flags-and-anthems.com/media/flags/flagge-italien.gif);
+        background-size: 50px; 
+        background-repeat: no-repeat;
+        background-position:center;
+        transition-delay:0.75ms;
+     }
+     .link5:hover {
+         color:black;
+         background-image:url(https://www.crwflags.com/fotw/images/c/ch~.gif);
+        background-size: 90px; 
+        background-repeat: no-repeat;
+        background-position: center;
+        transition-delay:0.75ms;
+     }
+     .link6:hover {
+         color:white;
+         background-image:url(http://famouswonders.com/wp-content/uploads/2011/02/flag-of-scandinavia.png);
+        background-size: 90px; 
+        background-repeat: no-repeat;
+        background-position: center;
+        transition-delay:0.75ms;
+     }
+
+Body{
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    
+
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 7em;
+    text-align: center;
+    color:#edf2f3;
+}
+
+h2 {
+    margin-top:2px;
+    margin-bottom: 0;
+    padding:0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5em;
+    text-align: center;
+    font-weight:400;
+    color: #edf2f3e5;
+    display:block;
+
+}
+
+.img-container{
+    background-position: center;
+    height:auto;
+    overflow: hidden;
+    background-image:url(https://www.slh.com/globalassets/content-hub-images/france/south_of_france_hero_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom:0;
+    display:block;
+}
+.inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    Height: auto;
+    margin-top: 200px;
+    
+}
+
+.box2{
+    background-color:darkblue;
+width:100%;
+max-height:130px;
+}
+
+.box3{
+background-color:rgb(189, 228, 247);
+width:100%;
+height:250px;
+display: inline-block;
+text-align: center;
+border-top: 5px solid whitesmoke;
+border-bottom:5px solid whitesmoke;
+
+}
+
+img{
+    margin:0;
+    width: 300px;
+    height:200px;
+    padding: 20px 10px 0px 20px;
+    float:center;
+    border: 1px transparent;
+    
+}
+
+.pic1 {
+width: 350px;
+height:400px;
+margin: 0;
+padding:0;
+border: 10px solid white;
+float:left;
+
+}
+    
+
+.box4{
+    height:450px;
+    width:100%;
+    background-color:darkblue;
+    padding-top:20px;
+    padding-left:200px;
+    text-align:right;
+    display:table;
+    
+
+}
+P{
+Font-family: 'Shadows Into Light', cursive;
+font-size: 30px;
+font-style:italic;
+font-weight:500;
+text-align:right;
+color:White;
+display: inline;
+vertical-align:center;
+}
+
+
+p.quote1, p.quote2 p.quote3{
+   display:table;
+    vertical-align:center;
+    position:center;
+    padding-left: 100px;
+    width:400px;
+    height:400px;
+    color: White;
+    align-content:right;
+}
+
+
+
+
+
+@media only screen and(max-width:920px) {
+    .inner-container{
+        margin-top:100px;
+    }
+}
+
+@media only screen and (max-width:540){
+    .inner-container{
+        margin-top: 150px;
+    }
+    h1{
+        font-size:5em;
+    }
+    h2{
+        font-size:1.4em;
+    }
+}

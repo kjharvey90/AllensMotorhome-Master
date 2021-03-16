@@ -1,0 +1,308 @@
+
+
+header{
+    margin: 0;
+    padding:0;
+    background-color: darkblue;
+    max-height:50px;
+    border: solid white 5px;
+    width:100%;
+}
+  
+.container{
+    width: 100%;
+    margin:0 auto;
+    height:37px;
+    border: solid white 5px;
+}
+
+nav{
+    float:left;
+    background-color:darkblue;
+    width:100%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li {
+    display: inline-block;
+    padding-left:100px;
+    padding-top:5px;
+    text-align: center;
+}
+
+a,.link1,.link2,.link3,.link4,.link5,.link6 {
+    color: White;
+    font-style: None;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:600;
+    font-size:20px;
+    text-decoration:none;
+    transition-delay:0.75ms;
+}
+
+a:hover {
+    transition-delay: 0.75ms;
+}
+
+a:hover .linkflag {
+    opacity: 1;
+}
+
+a:hover .fa-home {
+    opacity: 1;
+}
+
+.link1:hover {
+    color:rgb(189, 228, 247);
+}
+
+.linkflag {
+    height: 15px;
+    width: 25px;
+    padding: 0px;
+    opacity: 0;
+}
+
+.fa-home {
+    opacity: 0;
+}
+
+.link2:hover{
+    color:blue;
+}
+    
+.link3:hover {
+    color:orange;
+}
+
+.link4:hover {
+    color:lime;
+}
+
+.link5:hover {
+    color:red;
+}
+
+.link6:hover {
+    color: gold;
+}
+
+body{
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color:darkblue;
+
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 7em;
+    text-align: center;
+    color:#edf2f3;
+}
+
+h2, ol{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top:0;
+    margin-bottom: 0;
+    padding:0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5em;
+    text-align: center;
+    font-weight:400;
+    color: White;
+    display:block;
+}
+
+.img-container{
+    background-position: center;
+    height:auto;
+    width: 100%;
+    overflow: hidden;
+    background-image:url(https://www.slh.com/globalassets/content-hub-images/france/south_of_france_hero_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom:0;
+    display:block;   
+    border: solid white 5px;
+}
+
+.trip1{
+    text-align: center;
+    width: 100%;
+    Height: 300px;
+    margin-top:0;   
+    background-image:url(road.jpg);
+    background-size:cover;
+
+}
+
+.section-container{
+    width: 100%;
+    max-width: 1800px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.box2{
+    background-color:darkblue;
+    text-align:center;
+    margin:0;
+    border:0;
+    padding-bottom:10px;
+}
+
+.box3{
+    background-color: darkblue;
+    width:100%;
+    height:300px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+img{
+    margin:0;
+    text-align:center;
+    width: 300px;
+    height:200px;
+    padding: 10px;
+    top:0px;
+    bottom:0px;
+    display: table cell;
+}
+
+.pic1 {
+    width: 350px;
+    height:400px;
+    margin: 0;
+    padding:0;
+    border: 10px solid white;
+    float:left;
+}
+    
+
+.box4{
+    max-height:450px;
+    width:100%;
+    background-color:darkblue;
+    text-align:right;
+    display:table;
+    padding-bottom:0;
+}
+
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-style:italic;
+    font-weight:500;
+    text-align:right;
+    color:White;
+    display: inline;
+    vertical-align:center;
+}
+
+.quote1 {
+    font-family: 'Shadows Into Light', cursive;
+    display:table;
+    position:right;
+    padding-left: 100px;
+    color: White;
+    text-align: justify;
+    max-width:500px;
+    line-height: 1.8;
+    
+}
+
+.infobox{
+    width:100%;
+    background-color: darkblue;
+    overflow: hidden;
+}
+
+.map{
+    text-align:left;
+    display:table-cell;
+    float:right;
+    width:500px;
+    height: 500px;
+    margin:20px 100px 0 20px;
+    padding:0;
+    border:5px solid white;
+}
+
+
+.quote2{
+    font-family: 'Shadows Into Light', cursive;
+    display:table;
+    color: White;
+    text-align: justify;
+    min-height:500px;
+    padding-top:30px;
+    line-height:1.5;
+    font-size:24px;
+    padding-left: 20px;
+}
+
+
+a{
+    color:yellow;
+}
+
+.box5{
+    max-height:130px;
+    overflow:hidden;
+    background-color: darkblue;
+    align-content: center;
+    display:block;
+    padding-bottom:20px;
+    margin:0;
+}
+
+.box6{
+    padding:0;
+    margin:0;
+    background-color: darkblue;
+    width: 100%;
+    max-height:700px;
+
+
+}
+
+
+li{
+    margin:0;
+    padding:0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:24px;
+    max-width:800px;
+    color:white;
+
+}
+
+@media only screen and(max-width:920px) {
+    .inner-container{
+        margin-top:100px;
+    }
+
+@media only screen and (max-width:540){
+    .inner-container{
+        margin-top: 150px;
+    }
+    h1{
+        font-size:5em;
+        color:white;
+    }
+    h2{
+        font-size:1.4em;
+        color:white;}
+    }
+}
